@@ -9,6 +9,10 @@ const profile = {
 
 const { age, name, coords }: { age: number; name: string; coords: object } = profile;
 
+// const {
+//   coords: { lat, lng },
+// }: { coords: { lat: number; lng: number } } = profile;
+
 const {
   coords: { lat, lng },
-}: { coords: { lat: number; lng: number } } = profile;
+} = profile;

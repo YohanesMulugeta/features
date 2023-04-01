@@ -17,3 +17,4 @@ carMakers.map((car): string => {
 // FELEXIBLE ARRAYS
 const importantDates: (Date | string)[] = [new Date()];
 importantDates.push("2020-30-10");
+const [dateOfDate] = importantDates;
