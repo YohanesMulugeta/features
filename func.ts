@@ -32,6 +32,12 @@ const forcast = {
   weather: "sunny",
 };
 
+// interface destrucexa {
+//   date: Date;
+//   weather: string;
+//   duration: number;
+// }
+
 const logWether = ({ date, weather }: { date: Date; weather: string }): void => {
   console.log(date + " " + weather);
 };
